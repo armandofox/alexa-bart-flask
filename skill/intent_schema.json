@@ -1,0 +1,15 @@
+{
+  "intents": [
+    { "intent": "NextTrainIntent",
+      "slots": [{ "name": "station", "type": "LIST_OF_STATIONS" }] },
+    { "intent": "ArriveTimeIntent",
+      "slots": [{ "name": "destination", "type": "LIST_OF_STATIONS"},
+                { "name": "time",        "type": "AMAZON.TIME" }] },
+    { "intent": "SetHomeStationIntent",
+      "slots": [{ "name": "station", "type": "LIST_OF_STATIONS"}] },
+    { "intent": "DelaysIntent" },
+    { "intent": "AMAZON.StopIntent" },
+    { "intent": "AMAZON.CancelIntent" }
+  ]
+}
+
